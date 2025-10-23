@@ -1,0 +1,6 @@
+# This rule is for Single Page Application (SPA) routing.
+# It tells Netlify: For any path (/*) serve the index.html file with a 200 status.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
